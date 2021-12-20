@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/text1"
+        android:text="Making Customer Connect Easier"
+        android:layout_below="@id/image"
+        android:layout_centerInParent="true"
+        android:textColor="#406882"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:text="A Product by My Inbox Media®"
+        android:layout_marginTop="6dp"
+        android:textColor="#406882"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
